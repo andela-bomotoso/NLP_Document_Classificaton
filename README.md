@@ -6,10 +6,6 @@ A program that makes use of supervised learning classifiers in the Natural Laang
 
 ### Processing
 The following steps are applied;
-* Things to consider
-  * whether or not to remove punctuation like periods, commas, colons, semi-colons, question marks, exclamation points, double quotes, etc
-  * whether to remove stopwords (NLTK stopwords may be augmented by others you believe appropriate for removal)
-  * whether to normalize text to lowercase
 * Features are extracted from the bag-of-words that are helpful in classifying the speeches. Common bag-of-word features are: counts of (certain) words; presence of (certain) words; (average) length of words; (average) length of sentences; (average) length of (entire) text, etc.
 
 ### Output
